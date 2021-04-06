@@ -30,7 +30,7 @@ const Giveaways = () => {
       }}
     >
       {giveaways.length == 0 && (
-        <div className="giveaways__popular">
+        <div className="giveaways__popular none">
           <h1 className="giveaways__title">
             There doesnt seem to be anything here that fits your search.
           </h1>

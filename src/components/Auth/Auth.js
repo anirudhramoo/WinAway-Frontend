@@ -52,6 +52,7 @@ const Auth = () => {
   };
   const failure = (googleData) => {
     alert("There was an error with the sign in. Please try again later.");
+    console.log(googleData);
   };
   const paddingbottom = { paddingBottom: `${!channels ? "280px" : "150px"}` };
   return (
