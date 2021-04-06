@@ -1,0 +1,86 @@
+:root {
+  --primary2: hsla(359, 100%, 65%);
+  --secondary2: hsla(39, 94%, 51%);
+}
+.giveaways {
+  text-align: center;
+}
+.giveaways__others {
+  margin-bottom: 70px;
+}
+.giveaways__popular {
+  background: linear-gradient(135deg, var(--primary2), var(--secondary2));
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.3rem;
+  padding-bottom: 80px;
+}
+
+.giveaways__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  color: white;
+}
+
+.giveaways__secondary {
+  background-color: white;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  padding-bottom: 80px;
+}
+
+.giveaways__others > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.giveaways__others {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.giveaways__popular > button {
+  color: white;
+  background: black;
+  width: 40%;
+  height: 60px;
+  margin-bottom: 100px;
+}
+
+.giveaways__popular > button :hover {
+  color: black;
+}
+
+@media (max-width: 793px) {
+  .giveaways__title {
+    font-size: 2.6rem;
+  }
+  .giveaways__popular {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .giveaways__others > h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .giveaways__others > h1 {
+    font-size: 1.9rem;
+  }
+}

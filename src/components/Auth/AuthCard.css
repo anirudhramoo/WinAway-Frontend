@@ -1,0 +1,101 @@
+.auth__card {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.auth__card:hover {
+  transform: scale(1.07);
+}
+
+.auth__card > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.auth__card > h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1050px) {
+  .auth__card {
+    width: 70%;
+  }
+
+  .auth__card > h3 {
+    font-size: 1.4rem;
+  }
+
+  .auth__card > h5 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .auth__card {
+    width: 80%;
+  }
+
+  .auth__card > h3 {
+    font-size: 1.2rem;
+  }
+
+  .auth__card > h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .auth__card {
+    width: 90%;
+  }
+
+  .auth__card > h3 {
+    font-size: 1.2rem;
+  }
+
+  .auth__card > h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .auth__card {
+    width: 90%;
+  }
+
+  .auth__card > h3 {
+    font-size: 1rem;
+  }
+
+  .auth__card > h5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 395px) {
+  .auth__card {
+    width: 90%;
+  }
+
+  .auth__card > h3 {
+    font-size: 0.8rem;
+  }
+
+  .auth__card > h5 {
+    font-size: 0.6rem;
+  }
+}

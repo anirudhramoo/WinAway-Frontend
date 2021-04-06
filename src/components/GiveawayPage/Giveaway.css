@@ -1,0 +1,319 @@
+.individual_giveaway_titlediv {
+  text-align: center;
+  background: linear-gradient(135deg, var(--primary2), var(--secondary2));
+  padding: 50px;
+}
+
+.individual__outer__div {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.individual_giveaway_title {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+.individual_giveaway_name {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+}
+.individual_giveaway_image {
+  max-height: 500px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+.individual_giveaway_seconddiv {
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+}
+
+.individual__enter__heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.7rem;
+  margin-bottom: 50px;
+}
+
+.individual__giveaway__enter {
+  border-radius: 8px;
+  border: solid grey 1px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.individual__requirement__header {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-bottom: 17px;
+}
+
+.individual__specific__requirement {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.individual__slots__header {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 17px;
+}
+
+.individual__griditem__div {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.individual__griditem__title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.individual__date {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 90px;
+}
+.individual_buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.individual_buttons > button {
+  text-transform: inherit;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: black;
+  background-color: white;
+}
+
+.individual_guaranteeDelete {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.individual_giveaway_prize {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.individual_giveaway_prizedetails {
+  color: black;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+.individual_giveaway_prizevalue {
+  color: black;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+/* TOP SECTION MEDIA QUERIES */
+
+@media (max-width: 1150px) {
+  .individual_giveaway_title {
+    font-size: 3.4rem;
+  }
+  .individual_giveaway_name {
+    font-size: 2.4rem;
+  }
+  .individual_giveaway_image {
+    width: 70%;
+  }
+
+  .individual__enter__heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1025px) {
+  .individual_giveaway_title {
+    font-size: 3.2rem;
+  }
+  .individual_giveaway_name {
+    font-size: 2.2rem;
+  }
+  .individual_giveaway_image {
+    width: 80%;
+  }
+  .individual_giveaway_prize {
+    font-size: 2.6rem;
+  }
+
+  .individual_giveaway_prizedetails {
+    font-size: 1.5rem;
+  }
+  .individual_giveaway_prizevalue {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .individual_giveaway_title {
+    font-size: 3rem;
+  }
+  .individual_giveaway_name {
+    font-size: 2rem;
+  }
+  .individual_giveaway_image {
+    width: 95%;
+  }
+  .individual_giveaway_prize {
+    font-size: 2.4rem;
+  }
+
+  .individual_giveaway_prizedetails {
+    font-size: 1.3rem;
+  }
+  .individual_giveaway_prizevalue {
+    font-size: 1.3rem;
+  }
+  .individual__enter__heading {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .individual_giveaway_title {
+    font-size: 2.6rem;
+  }
+  .individual_giveaway_name {
+    font-size: 1.6rem;
+  }
+  .individual_giveaway_image {
+    width: 100%;
+  }
+  .individual_giveaway_prize {
+    font-size: 2.2rem;
+  }
+
+  .individual_giveaway_prizedetails {
+    font-size: 1.2rem;
+  }
+  .individual_giveaway_prizevalue {
+    font-size: 1.2rem;
+  }
+
+  .individual_giveaway_titlediv {
+    padding: 20px;
+  }
+
+  .individual__enter__heading {
+    font-size: 2.3rem;
+  }
+}
+
+/* Bottom section */
+
+@media (max-width: 885px) {
+  .individual__requirement__header {
+    font-size: 1.5rem;
+  }
+
+  .individual__specific__requirement {
+    font-size: 0.9rem;
+  }
+
+  .individual__slots__header {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .individual__giveaway__enter {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .individual__requirement__header {
+    font-size: 1.3rem;
+  }
+
+  .individual__specific__requirement {
+    font-size: 0.7rem;
+  }
+
+  .individual__slots__header {
+    font-size: 1.2rem;
+  }
+  .individual__giveaway__enter {
+    width: 95%;
+  }
+}
+
+@media (max-width: 425px) {
+  .individual__requirement__header {
+    font-size: 1.1rem;
+  }
+
+  .individual__specific__requirement {
+    font-size: 0.7rem;
+  }
+
+  .individual__slots__header {
+    font-size: 1rem;
+  }
+  .individual__giveaway__enter {
+    width: 98%;
+  }
+}
+/* -----------------End and contact-------- */
+
+@media (max-width: 930px) {
+  .individual__griditem__title {
+    font-size: 1.7rem;
+  }
+
+  .individual__date {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .individual__griditem__title {
+    font-size: 1.5rem;
+  }
+
+  .individual__date {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .individual__griditem__title {
+    font-size: 1.7rem;
+  }
+
+  .individual__date {
+    font-size: 1rem;
+  }
+  .second {
+    margin-top: 0;
+  }
+}

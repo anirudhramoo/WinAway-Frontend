@@ -1,0 +1,157 @@
+.enter__div {
+  display: flex;
+  align-items: center;
+  border: solid grey 0.5px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.add__req {
+  margin-top: 15px !important;
+  margin-left: 5px !important;
+}
+.single__req__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.draws__value {
+  padding: 10px;
+  width: 100%;
+  min-width: 250px;
+  outline-width: 0;
+}
+
+.req__input {
+  padding: 10px;
+  width: 100%;
+  min-width: 250px;
+  outline-width: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.enter_input {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.remove__button {
+  margin-left: 20px !important;
+  margin-top: 12px !important;
+}
+
+@media (max-width: 1155px) {
+  .enter__div {
+    width: 95%;
+  }
+  .draws__value {
+    padding: 10px;
+    width: 100%;
+    min-width: 250px;
+    outline-width: 0;
+  }
+  .req__input {
+    padding: 10px;
+    width: 100%;
+    min-width: 250px;
+    outline-width: 0;
+  }
+}
+
+@media (max-width: 1045px) {
+  .enter__div {
+    width: 95%;
+  }
+  .draws__value {
+    padding: 10px;
+    width: 100%;
+    min-width: 200px;
+    outline-width: 0;
+  }
+  .req__input {
+    padding: 10px;
+    width: 100%;
+    min-width: 200px;
+    outline-width: 0;
+  }
+}
+
+@media (max-width: 785px) {
+  .draws__value {
+    padding: 10px;
+    width: 120px;
+    min-width: 30px;
+    outline-width: 0;
+  }
+  .req__input {
+    padding: 10px;
+    width: 120px;
+    min-width: 30px;
+    outline-width: 0;
+  }
+}
+
+@media (max-width: 643px) {
+  .draws__value {
+    padding: 10px;
+    width: 70px;
+    min-width: 10px;
+    outline-width: 0;
+  }
+  .req__input {
+    padding: 10px;
+    width: 70px;
+    min-width: 10px;
+    outline-width: 0;
+  }
+}
+
+@media (max-width: 525px) {
+  .draws__value {
+    padding: 10px;
+    width: 40px;
+    min-width: 5px;
+    outline-width: 0;
+  }
+  .req__input {
+    padding: 10px;
+    width: 40px;
+    min-width: 5px;
+    outline-width: 0;
+  }
+}
+
+@media (max-width: 483px) {
+  .draws__value {
+    padding: 10px;
+    width: 10px;
+    min-width: 1px;
+    outline-width: 0;
+  }
+  .req__input {
+    padding: 10px;
+    margin-left: 20px;
+    width: 10px;
+    min-width: 1px;
+    outline-width: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .draws__value {
+    padding: 5px;
+    width: 5px;
+    min-width: 1px;
+    outline-width: 0;
+  }
+  .req__input {
+    padding: 5px;
+    margin-left: 20px;
+    width: 5px;
+    min-width: 1px;
+    outline-width: 0;
+  }
+}

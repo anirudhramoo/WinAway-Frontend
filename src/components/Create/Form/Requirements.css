@@ -1,0 +1,23 @@
+.button__div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outer__enter__reqdiv {
+  text-align: center;
+}
+
+.addEnterButton {
+  text-transform: inherit !important;
+  font-family: "Montserrat", sans-serif !important;
+  margin-bottom: 10px !important;
+}
+
+.div_between_enters {
+  margin-bottom: 20px;
+}
+
+.div_between_enters:last-of-type {
+  margin-bottom: 50px;
+}

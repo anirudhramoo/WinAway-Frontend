@@ -1,0 +1,129 @@
+:root {
+  --primary: hsla(359, 100%, 65%, 0.85);
+  --secondary: hsla(39, 94%, 51%, 0.85);
+}
+
+.home {
+  background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url("../../images/ps5.jpg") no-repeat center center / cover;
+
+  text-align: center;
+  padding-bottom: 18%;
+  padding-top: 10%;
+}
+.home__outer {
+  margin-bottom: 50px;
+}
+
+.title {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+}
+
+.subtitle {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+
+.message {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.icon {
+  font-size: 15rem;
+}
+.info-title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.info {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.message > button {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: black;
+  text-transform: inherit;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.message > button:hover {
+  background-image: linear-gradient(45deg, #f8a50a, #ff4e50);
+  color: white;
+}
+.gradient {
+  background-image: linear-gradient(45deg, #ff4e50, #f8a50a);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+@media (max-width: 650px) {
+  .title {
+    font-size: 3.3rem;
+  }
+  .info-title {
+    font-size: 1.7rem;
+  }
+  .icon {
+    font-size: 12rem;
+  }
+  .info {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 1rem;
+  }
+  .message > button {
+    margin-top: 50px;
+
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 2.8rem;
+  }
+  .subtitle {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+  .info-title {
+    font-size: 1.3rem;
+  }
+  .icon {
+    font-size: 10rem;
+  }
+  .info {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 0.8rem;
+  }
+  .message > button {
+    margin-top: 30px;
+
+    font-size: 1rem;
+  }
+}
