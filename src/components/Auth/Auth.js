@@ -7,6 +7,7 @@ import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { setShow } from "../../redux/showSearch";
 import CircularProgress from "@material-ui/core/CircularProgress";
+import Button from "@material-ui/core/Button";
 
 const Auth = () => {
   const [user, setUser] = useState({});
@@ -81,6 +82,17 @@ const Auth = () => {
                   cookiePolicy={"single_host_origin"}
                   scope="https://www.googleapis.com/auth/youtube.readonly"
                 />
+                <div>
+                  <Button
+                    variant="outlined"
+                    className="policyButton"
+                    onClick={() => {
+                      history.push("/policy");
+                    }}
+                  >
+                    View our privacy policy
+                  </Button>
+                </div>
               </>
             ) : (
               <CircularProgress />

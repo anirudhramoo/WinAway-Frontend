@@ -51,6 +51,20 @@
   font-size: 1rem;
 }
 
+.policyButton {
+  margin-top: 30px !important;
+  background-color: white !important;
+  text-transform: inherit !important;
+  font-family: "Work Sans", sans-serif !important;
+}
+
+.policyButton:hover {
+  background-color: inherit !important;
+  color: white !important;
+  text-transform: inherit !important;
+  font-family: "Work Sans", sans-serif !important;
+}
+
 @media (max-width: 1100px) {
   .initial__auth__header {
     font-size: 1.9rem;

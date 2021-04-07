@@ -1,0 +1,16 @@
+.outer-policy {
+  padding: 40px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.outer-policy > p,
+h3,
+ul,
+li,
+h4,
+h5 {
+  margin: 20px;
+}
+.outer-policy > strong {
+  font-weight: 800;
+}

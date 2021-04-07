@@ -31,10 +31,12 @@ const Home = (props) => {
         </h3>
         <p className="info">
           Have you ever wanted to keep up-to-date on the latest YouTube
-          giveaways. Well look no further. WinAway is here to hook you up with
-          the best giveaways available. After all, the more giveaways you enter,
-          the more you win. And we provide you all the giveaways you would ever
-          need. So what are you waiting for? Get Started with the button below.
+          giveaways. Well look no further. WinAway is a platform where content
+          creators on YouTube can sign up and advertise their giveaways. This
+          leads to us being able to match viewers with the best giveaways
+          available. After all, the more giveaways you enter, the more you win.
+          And we provide you all the giveaways you would ever need. So what are
+          you waiting for? Get Started with the button below.
         </p>
 
         <Button

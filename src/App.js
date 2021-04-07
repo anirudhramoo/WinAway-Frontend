@@ -7,6 +7,7 @@ import Auth from "./components/Auth/Auth";
 import Create from "./components/Create/Create";
 import Edit from "./components/EditGiveaway/Edit";
 import Footer from "./components/Footer/Footer";
+import Policy from "./components/Privacy Policy/Policy";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/auth">
           <Auth />
+        </Route>
+        <Route exact path="/policy">
+          <Policy />
         </Route>
       </Switch>
       <Footer />
