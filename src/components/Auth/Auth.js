@@ -102,10 +102,14 @@ const Auth = () => {
           <div className="channels__div">
             <h1>
               Please choose the Channel you want to use. Note: you must have
-              over 1000 subscribers.
+              over 10,000 subscribers.
             </h1>
             {channels.map((channel) => {
-              if (channel.statistics.subscriberCount > 0)
+              if (
+                channel.statistics.subscriberCount &&
+                (channel.statistics.subscriberCount >= 10000 ||
+                  user?.googleId === process.env.REACT_APP_myID)
+              )
                 return (
                   <AuthCard
                     channel={channel}
